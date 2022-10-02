@@ -1,0 +1,31 @@
+*,
+::after,
+::before {
+  box-sizing: border-box
+}
+
+html {
+  background: #000000 url(https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/250900/e45a1c8ddd6a1ec1f69c317b6807fc7f30217098.png) no-repeat center bottom fixed;
+  background-size: cover;
+}
+
+body {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0.84;
+}
+
+#main-content a {
+  color: #f8f9fa;
+  display: inline-block;
+  padding: 3px;
+}
+
+#bottom-content {
+  padding-top: 42px;
+}
