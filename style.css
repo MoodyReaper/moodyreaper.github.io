@@ -17,15 +17,15 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  opacity: 0.84;
 }
 
-#main-content a {
-  color: #f8f9fa;
+#profile-links a {
+  color: #cecece;
   display: inline-block;
   padding: 3px;
 }
 
 #bottom-content {
   padding-top: 42px;
+  opacity: 0.84;
 }
